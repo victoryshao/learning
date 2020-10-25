@@ -27,5 +27,5 @@ if __name__ == '__main__':
         try:
             num = int(raw)
             print(s.isPalindrome(num))
-        except Exception:
+        except ValueError:
             break
